@@ -1,0 +1,104 @@
+:root {
+    --green: #4f6c61;
+    --dark: #273624;
+    --background: #fcfcfa;
+    --accent: #e8e7e1;
+}
+
+* {
+    background-color: var(--background);
+}
+
+body {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#timer {
+    margin-left: 15px;
+}
+
+body>header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+nav a {
+    color: var(--green);
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+header p {
+    margin: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visable {
+    display: block;
+}
+
+#two span {
+    border-top: var(--green) solid 2px;
+    margin-left: 30px;
+
+}
+
+button {
+    border: none;
+    background-color: var(--dark);
+    border-radius: 15px;
+    color: var(--accent);
+    display: block;
+    text-align: center;
+    padding: 5px 8px;
+    margin-top: 5px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 3px var(--green);
+}
+
+#start,
+#submit {
+    margin: 30px;
+}
+
+ol {
+    margin: 30px;
+}
+
+h1 {
+    margin: 15px;
+    font-size: 25px;
+}
+
+#final-score {
+    color: var(--green);
+}
+
+#log-score {
+    margin-top: 15px;
+}
+.scores ol {
+    width: 150px;
+    background-color: var(--accent);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+li {
+    background-color: var(--background);
+    margin: 5px;
+    padding: 2px;
+    padding-left: 4px;
+    width: max;
+    border-radius: 4px;
+    color: var(--dark);
+}
